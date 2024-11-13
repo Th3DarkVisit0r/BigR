@@ -56,7 +56,7 @@ try
 ## Open the background song
 $script = @'
    $player = New-Object -ComObject 'MediaPlayer.MediaPlayer'
-   $player.Open("http://172.16.64.1/background.mp3")
+   $player.Open("http://www.leeholmes.com/projects/ps_html5/background.mp3")
    $player
 '@
 
